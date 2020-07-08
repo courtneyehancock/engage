@@ -1,0 +1,582 @@
+/*
+  Theme Name: Professional and Workforce Development
+  Theme URI:
+  Author: Courtney Hancock
+  Description: This template was made for the University of Florida Office of Professional and Workforce Development by Courtney Hancock
+  Version: 1.0
+  License: Open
+  Text Domain: pwd
+
+*/
+
+
+/* -- Universal Styling -- */
+@font-face {
+	font-family: 'GentonaBook_Italic';
+	src: url('fonts/GentonaBook_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaBook';
+	src: url('fonts/GentonaBook.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaHeavy_Italic';
+	src: url('fonts/GentonaHeavy_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaHeavy';
+	src: url('fonts/GentonaHeavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaLight_Italic';
+	src: url('fonts/GentonaLight_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaLight';
+	src: url('fonts/GentonaLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonHeavy';
+	src: url('fonts/QuadonHeavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonMedium';
+	src: url('fonts/QuadonMedium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonThin';
+	src: url('fonts/QuadonThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Black';
+	src: url('fonts/PlayfairDisplay-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-BlackItalic';
+	src: url('fonts/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Bold';
+	src: url('fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-BoldItalic';
+	src: url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Italic';
+	src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Regular';
+	src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-SemiBold';
+	src: url('fonts/PlayfairDisplay-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-SemiBoldItalic';
+	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'GentonaBook', sans-serif !important;
+  color: #00529b;
+	font-size: 30px;
+	font-weight:bold;
+}
+
+h2 {
+  font-family: 'QuadonMedium', serif !important;
+  color: #00529b;
+	font-size: 1.2em;
+	letter-spacing:.8px;
+}
+
+h3 {
+  font-family: 'QuadonThin', serif !important;
+  color: #00529b;
+	font-size: 1em;
+	font-weight:bold;
+	letter-spacing:1.5px;
+}
+
+h4 {
+  font-family: 'GentonaLight', sans-serif !important;
+  color: #00529b;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h5 {
+  font-family: 'GentonaLight_Italic', sans-serif !important;
+  color: #00529b;
+	font-size: 18px;
+}
+
+h6 {
+  font-family: 'GentonaLight', sans-serif !important;
+  color: #00529b;
+	font-size: 18px;
+}
+
+p,
+li {
+  font-family: 'GentonaLight', sans-serif !important;
+	color: #212121;
+	font-size: 16px;
+}
+
+
+a {
+	color: #ff590e;
+}
+
+a:hover {
+	color: #00529b;
+	text-decoration: none;
+}
+
+a.aa {
+	color:#ff590e;
+}
+
+a.aa:hover {
+	color:#00529b;
+}
+
+.btn {
+    border: 3px solid #ff590e;
+    font-family: 'GentonaLight' !important;
+    color: #ffffff;
+    border-radius: 0;
+		background-color: #ff590e;
+}
+.btn:hover {
+  border: 3px solid #ffffff !important;
+  background-color: #ffffff;
+  color: #ff590e;
+}
+
+.p-font {
+	font-family: 'PlayfairDisplay-Regular' !important;
+	font-style:italic;
+	font-size: 14px;
+	margin:0;
+}
+/*body{
+  padding-bottom:500px;
+}*/
+
+.main-content{
+/*  min-height:190vh;*/
+  background:#fff;
+  z-index:1;
+	position:relative;
+}
+
+.page-title {
+	padding: 25% 0 0 10%;
+	margin-top: -30px;
+	line-height: .8em;
+	font-size: 2em;
+	color: #fff;
+}
+
+ul.objectives {
+    color: #f37022;
+    font-size: 15px;
+    font-style: italic;
+	}
+/* -- HEADER -- */
+header {
+  background-color: #fff;
+}
+
+.row.main-nav {
+    margin-left: 0;
+    margin-right: 0;
+		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.header-text {
+  line-height: .2;
+  /*padding-left:1em;*/
+  padding-top:2.3em;
+}
+.head-text{
+  color:#00529b;
+  /*font-family: 'GentonaLight',sans-serif !important;*/
+	font-family: 'PlayfairDisplay-Regular', serif !important;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: .5px;
+  /*font-style: italic;*/
+	font-size: 16px;
+	position:absolute;
+	left: 130px;
+}
+
+img.uf-logo {
+	width: 74px;
+/*	margin-top: 2%;*/
+  /*margin-left: -25%;*/
+	/*height:60px;*/
+  position: absolute;
+  left:0;
+  padding:15px;
+  background-color:#ff590e;
+	/*background-image: linear-gradient(#00529b, #101c3d);*/
+}
+
+.main-nav {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+  background-color:#fff;
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
+    letter-spacing: 1.5px;
+}
+
+/* -- HOME PAGE -- */
+h1.home-head{
+	color:#fff;
+	padding: 1% 5%;
+	/*text-shadow: 3px 4px 0px #bc581a;*/
+	border: 2px solid #a8dcd9;
+	/*position: absolute;
+	bottom: 138px;*/
+	text-align:center;
+}
+
+h2.home-subhead {
+	color:#fff;
+	font-size: 1em;
+	/*position:absolute;
+	bottom: 97px;
+	right: 60px;*/
+	text-align:center;
+}
+
+a.apply-btn.btn {
+	display:flex;
+	justify-content:center;
+}
+
+h2.ab-head2 {
+  color: #fff;
+}
+p.credit-de {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    background-color: #ff590e;
+    padding: 19px 23px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0 0 0 20px;
+    text-align: center;
+		/*margin-top: 39px;*/
+}
+/* -- DEPARTMENTS -- */
+.d-photo {
+	object-fit: cover;
+  width: 100%;
+  height: 230px;
+}
+
+/* -- CONTACT US -- */
+img.img-fluid.headshots {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+/* -- BLOG -- */
+.col-lg-5.posts {
+	padding:10px;
+	box-shadow: 1px 5px 8px rgba(0,0,0,.1);
+	margin: .5%;
+}
+
+.posts p {
+	margin-bottom: 0;
+}
+
+h2.archive-title {
+	margin: 15px 20px;
+}
+
+p.category-label,
+.post-categories {
+	display: inline-block;
+}
+
+ul.post-categories {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding-left: 5px;
+}
+
+.post-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ff590e;
+}
+
+.post-info {
+	margin:10px 0px;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.written-by,
+.published {
+	display: inline-block;
+}
+
+ul.post-categories li {
+    display: inline;
+}
+/* -- FOOTER -- */
+
+footer {
+	/*background-image: url(https://ufcwde.com/wp-content/uploads/2020/02/prism.png);*/
+	background-color: #00285e;
+	padding: 3% 0 3% 0;
+/*	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:500px;
+	z-index:0;*/
+}
+
+.final-footer {
+	background-color: #001b3d;
+	padding: 1% 3%;
+	position:absolute;
+}
+
+.final-footer img {
+	width: 100%;
+}
+
+footer p {
+	color: #fff;
+}
+
+.widget-footer h3.widget-title {
+    font-size: 1.2rem;
+  /*  color: #f37022;*/
+}
+footer ul {
+    font-family: 'GentonaBook' !important;
+    list-style-type: none;
+		padding-left: 0;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+
+footer li a:hover {
+  color: #ff590e;
+	text-decoration: none;
+}
+
+.widget-footer.widget-right a {
+  color: #fff;
+}
+.widget-footer.widget-right a:hover {
+  color: #ff590e;
+}
+
+footer img {
+	max-width: 300px !important;
+}
+
+/* -- MEDIA QUERIES -- */
+@media (min-width: 500px){
+	img.header-text {
+		max-width: 175px;
+		position: absolute;
+		left: 40px;
+		top: 22px;
+		display:block;
+	}
+}
+
+@media (min-width: 600px) {
+	h1.home-head {
+		font-size: 4.5em;
+		left: 66px;
+		position: absolute;
+		bottom: 138px;
+	}
+	h2.home-subhead {
+		font-size: 2em;
+		bottom:90px;
+		left:165px;
+		position:absolute;
+	}
+	a.apply-btn.btn {
+    position: absolute;
+    bottom: 95px;
+    left: 470px;
+	}
+}
+
+@media (min-width: 767px) {
+	.page-title {
+		font-size: 4em;
+	}
+}
+
+@media (min-width:770px){
+  img.uf-logo {
+  	width: 96px;
+  /*	margin-top: 2%;*/
+    /*margin-left: -25%;*/
+  /*	max-height:75px;*/
+	}
+	footer {
+		position:fixed;
+		bottom:0;
+		left:0;
+		width:100%;
+		height:900px;
+		z-index:0;
+	}
+	.final-footer {
+		bottom:0;
+	}
+	body{
+	  padding-bottom:900px;
+	}
+}
+
+@media (min-width: 992px) {
+	footer {
+		height:400px;
+	}
+	body{
+		padding-bottom:400px;
+	}
+}
+@media (min-width: 1001px) {
+	.page-title {
+		font-size: 6em;
+	}
+}
+@media (min-width: 1200px) {
+	.course-grid {
+		margin-top: -162px;
+	  margin-bottom: -136px;
+	}
+	.bottom-img {
+    margin-left: 5%;
+	}
+
+	.grid-text {
+		width:45%;
+	}
+	figcaption.course-fig {
+    padding: 130px 23px !important;
+	}
+}
+
+@media (min-width: 1270px) {
+  img.uf-logo {
+  	/*max-width: 150px;*/
+  /*	margin-top: 2%;*/
+    /*margin-left: -4.5%;*/
+  /*	max-height:125px;*/
+  /*  padding:30px;*/
+    top:0;
+    margin-left:0;
+  }
+/*  .header-text {
+    padding-top: 1.5em;
+    padding-left: 4em;
+  }*/
+}
+
+@media (min-width: 1350px) {
+	.head-text {
+		font-size:18px;
+	}
+}
+
+@media (min-width: 1420px) {
+	.head-text {
+		font-size:19px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.head-text {
+		font-size:20px;
+	}
+}
+
+@media (min-width: 1600px) {
+	.head-text {
+		font-size:22px;
+	}
+}
+
+@media (min-width: 1725px) {
+	.head-text {
+		font-size:23px;
+	}
+}
+
+@media (min-width:2000px) {
+	footer {
+		height:420px;
+	}
+	body{
+		padding-bottom:420px;
+	}
+}
+
+
+@media only screen and (max-width: 1257px) {
+  .header-text {
+    display:none;
+  }
+}
+
+
+@media only screen and (max-width: 999px) {
+	footer {
+		text-align: center;
+	}
+	.main-nav {
+		position: relative;
+	}
+}
