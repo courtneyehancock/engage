@@ -1,5 +1,5 @@
 <footer>
-  <div class="container">
+  <div class="container pb-5">
     <div class="row">
       <div class="col-lg-4">
         <!--Logo/text widget-->
