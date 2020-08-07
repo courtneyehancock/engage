@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div class="container-fluid">
+  <div>
     <div class="internal-div">
-
     </div>
+    <?php dynamic_sidebar('banner-home'); ?>
   </div>
   <div class="container">
     <div class="post-container row justify-content-center">
