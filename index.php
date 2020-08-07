@@ -7,7 +7,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="post-container row justify-content-center">
     <?php
       if(have_posts()){
         while(have_posts()){
