@@ -3,8 +3,8 @@
 <div class="main-content">
   <div>
     <div class="internal-div">
-    </div>
     <?php dynamic_sidebar('banner-home'); ?>
+    </div>
   </div>
   <div class="container-fluid">
     <div class="post-container row justify-content-center">
