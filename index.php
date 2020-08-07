@@ -3,9 +3,6 @@
 <div class="main-content">
   <div class="container-fluid">
     <div class="internal-div">
-      <h1 style="color: #00529b; font-size: 2em; text-align: right; margin-right: 2em;">OPWD INSIDER</h1>
-
-      <hr />
 
     </div>
   </div>
@@ -27,6 +24,7 @@
             ?>
             <div class="post-info">
               <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
+              <a class="btn" href="<?php the_permalink(); ?>">LEARN MORE</a>
             <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
             </div>
           </div>
