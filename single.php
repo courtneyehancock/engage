@@ -10,7 +10,7 @@
           <?php the_post_thumbnail(); ?>
         </div>
         <h2 class="post-title"><?php the_title(); ?></h2>
-        <p class="published"><?php echo "| Published: " . get_the_date(); ?></p>
+        <p class="published"><?php echo "Published: " . get_the_date(); ?></p>
         <?php the_content(); ?>
 
       </div>
