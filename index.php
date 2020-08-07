@@ -1,11 +1,22 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div>
-    <div class="internal-div">
+  <div class="internal-div">
     <?php dynamic_sidebar('banner-home'); ?>
+
+    <hr />
+    <div class="container d-flex p-4 justify-content-center align-content-center align-items-end">
+      <h1>CHECK HERE FOR ALL FLAWARN UPDATES</h1>
+  <h2 class="pr-3">Looking for something specific?</h2><form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
+      <div>
+        <label class="screen-reader-text" for="s">Search for:</label>
+        <input type="text" value="" name="s" id="s">
+        <input type="submit" id="searchsubmit" value="Search">
+      </div>
+    </form>
     </div>
   </div>
+
   <div class="container-fluid">
     <div class="post-container row justify-content-center">
     <?php
