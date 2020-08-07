@@ -24,7 +24,7 @@
             ?>
             <div class="post-info">
               <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
-              <a class="btn" href="<?php the_permalink(); ?>">LEARN MORE</a>
+              <a class="btn mt-3" href="<?php the_permalink(); ?>">LEARN MORE</a>
             <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
             </div>
           </div>
