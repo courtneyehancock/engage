@@ -6,7 +6,7 @@
     </div>
     <?php dynamic_sidebar('banner-home'); ?>
   </div>
-  <div class="container">
+  <div class="container-fluid">
     <div class="post-container row justify-content-center">
     <?php
       if(have_posts()){
