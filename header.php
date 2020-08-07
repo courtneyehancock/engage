@@ -32,7 +32,7 @@
         <div>
           <!--Navigation-->
           <a href="<?php echo home_url('/'); ?>"><div class="header-text">
-            <p class="head-text">Community Engagement</p>
+            <p class="head-text"><?php bloginfo('description'); ?></p>
           </div></a>
         </div>
       </div>
