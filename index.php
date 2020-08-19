@@ -3,7 +3,8 @@
 <div class="main-content">
   <div class="internal-div">
     <?php dynamic_sidebar('banner-home'); ?>
-    <h1 class="text-center">CHECK HERE FOR ALL FLAWARN UPDATES</h1>
+    <h1 class="text-center pt-5">CHECK HERE FOR ALL FLAWARN UPDATES</h1>
+    <hr>
     <div class="container d-flex p-4 justify-content-center align-content-center align-items-end">
   <h2 class="pr-3">Looking for something specific?</h2><form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
       <div>
