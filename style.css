@@ -213,6 +213,11 @@ ul.objectives {
   margin: 0;
   padding: 0;
   background: #f4f4f4;
+	z-index: 2;
+}
+
+.menu p, li {
+	color:#fff;
 }
 .menu li a{
     display:block;
