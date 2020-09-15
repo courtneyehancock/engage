@@ -49,9 +49,9 @@
   </div>-->
 <div class="main-nav">
   <ul class="menu">
-<li title="home"><a href="#" class="home">home</a></li>
-<li title="search"><a href="#" class="search">about</a></li>
-<li title="pencil"><a href="#" class="pencil">agenda</a></li>
+<li title="home"><a href="https://pwd.aa.ufl.edu/cdprs/home" class="home">home</a></li>
+<li title="search"><a href="https://pwd.aa.ufl.edu/cdprs/about" class="search">about</a></li>
+<li title="pencil"><a href="https://pwd.aa.ufl.edu/cdprs/agenda" class="pencil">agenda</a></li>
 <li title="about"><a href="#" class="about">speakers</a></li>
 <li title="archive"><a href="#" class="archive">posters</a></li>
 <li title="contact"><a href="#" class="contact">submit</a></li>
