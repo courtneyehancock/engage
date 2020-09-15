@@ -289,7 +289,7 @@ ul.objectives {
 .menu li:after{
     content: attr(title);
     position:absolute;
-    left:5em;
+    left:3em;
     top:0;
     height:5em;
     -webkit-box-sizing: border-box;
