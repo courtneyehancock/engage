@@ -227,7 +227,7 @@ ul.objectives {
     line-height:5em;
     text-align:center;
     color: #ff590e;
-  /*  background: #f4f4f4;*/
+   	background: #f4f4f4;
     position: relative;
   /*  border-bottom: 1px solid #ffffff;*/
     transition: background 0.3s ease-in-out;
