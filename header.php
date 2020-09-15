@@ -14,12 +14,12 @@
 <body <?php body_class();?>>
 
 <header>
-  <div class="align-content-center">
+  <!--<div class="align-content-center">
     <div class="row main-nav">
       <div class="col-md-5" id="site-logo">
-          <div>
+          <div>-->
           <!--If/else for Logo and Site Title-->
-          <?php if(get_header_image() == '') { ?>
+          <!--<?php if(get_header_image() == '') { ?>
             <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
             <?php
           }else{?>
@@ -29,22 +29,33 @@
           ?>
         </div>
 
-        <div>
+        <div>-->
           <!--Navigation-->
-          <a href="<?php echo home_url('/'); ?>"><div class="header-text">
+        <!--  <a href="<?php echo home_url('/'); ?>"><div class="header-text">
             <p class="head-text"><?php bloginfo('description'); ?></p>
           </div></a>
         </div>
       </div>
 
-      <div class="col-md-7" id="site-nav">
+      <div class="col-md-7" id="site-nav">-->
         <!--Navigation-->
-        <?php wp_nav_menu(array(
+      <!--  <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
           'container-class' => 'menu-header'
           ));
         ?>
       </div>
     </div>
-  </div>
+  </div>-->
+<div class="main-nav">
+  <ul class="menu">
+<li title="home"><a href="#" class="home">home</a></li>
+<li title="search"><a href="#" class="search">search</a></li>
+<li title="pencil"><a href="#" class="pencil">pencil</a></li>
+<li title="about"><a href="#" class="active about">about</a></li>
+<li title="archive"><a href="#" class="archive">archive</a></li>
+<li title="contact"><a href="#" class="contact">contact</a></li>
+</ul>
+</div>
+
 </header>
