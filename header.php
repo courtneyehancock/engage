@@ -11,7 +11,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class();?>>
+<body data-spy="scroll" data-target="navbar" <?php body_class();?>>
 
 <header>
   <div class="align-content-center">
@@ -45,7 +45,7 @@
       </div>
     </div>
   </div>-->
-<div id="navbar" class="main-nav">
+<div id="navbar" class="main-nav nav">
   <ul class="menu">
 <li title="home"><a href="https://pwd.aa.ufl.edu/cdprs/#home" class="home menu-item">home</a></li>
 <li title="posters"><a href="https://pwd.aa.ufl.edu/cdprs/#posters" class="posters menu-item">posters</a></li>
