@@ -47,7 +47,7 @@
   </div>-->
 <div id="navbar" class="main-nav nav">
   <ul class="nav flex-column menu list-group">
-    <li title="home" class="nav-item active list-group-item">
+    <li title="home" class="nav-item list-group-item">
       <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/#home">Home</a>
     </li>
     <li title="posters" class="nav-item list-group-item">
