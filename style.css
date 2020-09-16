@@ -278,6 +278,11 @@ body {
 .menu li a.agenda:before {
   content: "\f073";
 }
+
+.menu li a.register:before {
+  content: "\f0a4";
+}
+
 .menu li a.speakers:before {
   content: "\f130";
 }
