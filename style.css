@@ -225,6 +225,10 @@ img.uf-logo {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+
+body {
+  position: relative;
+}
 /* -- HEADER -- */
 
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
