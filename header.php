@@ -45,7 +45,7 @@
       </div>
     </div>
   </div>-->
-<div id="navbar" class="main-nav navbar">
+<nav id="navbar" class="main-nav navbar">
   <ul class="nav flex-column menu">
     <li title="home" class="nav-item">
       <a class="home nav-link active" href="#">Home</a>
@@ -66,6 +66,6 @@
       <a class="nav-link submit" href="#submit">Submit</a>
     </li>
   </ul>
-</div>
+</nav>
 
 </header>
