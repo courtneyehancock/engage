@@ -295,8 +295,8 @@ img.uf-logo {
   color: #ff590e;
 }
 .menu li a.active {
-  background: #ff590e;
-  color: #fff;
+  background: #f4f4f4;
+  color: #ff590e;
 }
 .menu li a.active:after{
     position:absolute;
@@ -304,7 +304,7 @@ img.uf-logo {
     top:0;
     content:"";
     border:2.5em solid transparent;
-    border-left-color:#ff590e;
+    border-left-color:#f4f4f4;
     border-width: 2.5em 1em
 }
 .menu li{
