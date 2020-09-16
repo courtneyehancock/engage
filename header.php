@@ -46,14 +46,26 @@
     </div>
   </div>-->
 <div id="navbar" class="main-nav nav">
-  <ul class="menu">
-<li title="home"><a href="https://pwd.aa.ufl.edu/cdprs/#home" class="home menu-item">home</a></li>
-<li title="posters"><a href="https://pwd.aa.ufl.edu/cdprs/#posters" class="posters menu-item">posters</a></li>
-<li title="about"><a href="https://pwd.aa.ufl.edu/cdprs/#about" class="about menu-item">about</a></li>
-<li title="agenda"><a href="https://pwd.aa.ufl.edu/cdprs/#agenda" class="agenda menu-item">agenda</a></li>
-<li title="speakers"><a href="https://pwd.aa.ufl.edu/cdprs/#speakers" class="speakers menu-item">speakers</a></li>
-<li title="submit"><a href="https://pwd.aa.ufl.edu/cdprs/#submit" class="submit menu-item">submit</a></li>
-</ul>
+  <ul class="nav flex-column menu">
+    <li title="home" class="nav-item">
+      <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/#home">Active</a>
+    </li>
+    <li title="posters" class="nav-item">
+      <a class="posters nav-link" href="https://pwd.aa.ufl.edu/cdprs/#posters">Link</a>
+    </li>
+    <li title="about" class="nav-item">
+      <a class="about nav-link" href="https://pwd.aa.ufl.edu/cdprs/#about">Link</a>
+    </li>
+    <li title="agenda" class="nav-item">
+      <a class="agenda nav-link" href="https://pwd.aa.ufl.edu/cdprs/#agenda" class="agenda">agenda</a>
+    </li>
+    <li title="speakers" class="nav-item">
+      <a class="speakers nav-link" href="https://pwd.aa.ufl.edu/cdprs/#speakers" class="speakers">speakers</a>
+    </li>
+    <li title="submit" class="nav-item">
+      <a class="nav-link submit" href="https://pwd.aa.ufl.edu/cdprs/#submit">Disabled</a>
+    </li>
+  </ul>
 </div>
 
 </header>
