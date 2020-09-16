@@ -46,23 +46,23 @@
     </div>
   </div>-->
 <div id="navbar" class="main-nav nav">
-  <ul class="nav flex-column menu">
-    <li title="home" class="nav-item">
+  <ul class="nav flex-column menu list-group">
+    <li title="home" class="nav-item active list-group-item">
       <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/#home">Home</a>
     </li>
-    <li title="posters" class="nav-item">
+    <li title="posters" class="nav-item list-group-item">
       <a class="posters nav-link" href="https://pwd.aa.ufl.edu/cdprs/#posters">Posters</a>
     </li>
-    <li title="about" class="nav-item">
+    <li title="about" class="nav-item list-group-item">
       <a class="about nav-link" href="https://pwd.aa.ufl.edu/cdprs/#about">About</a>
     </li>
-    <li title="agenda" class="nav-item">
+    <li title="agenda" class="nav-item list-group-item">
       <a class="agenda nav-link" href="https://pwd.aa.ufl.edu/cdprs/#agenda" class="agenda">Agenda</a>
     </li>
-    <li title="speakers" class="nav-item">
+    <li title="speakers" class="nav-item list-group-item">
       <a class="speakers nav-link" href="https://pwd.aa.ufl.edu/cdprs/#speakers" class="speakers">Speakers</a>
     </li>
-    <li title="submit" class="nav-item">
+    <li title="submit" class="nav-item list-group-item">
       <a class="nav-link submit" href="https://pwd.aa.ufl.edu/cdprs/#submit">Submit</a>
     </li>
   </ul>
