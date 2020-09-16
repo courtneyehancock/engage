@@ -14,12 +14,12 @@
 <body <?php body_class();?>>
 
 <header>
-  <!--<div class="align-content-center">
+  <div class="align-content-center">
     <div class="row main-nav">
       <div class="col-md-5" id="site-logo">
-          <div>-->
+          <div>
           <!--If/else for Logo and Site Title-->
-          <!--<?php if(get_header_image() == '') { ?>
+          <?php if(get_header_image() == '') { ?>
             <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
             <?php
           }else{?>
@@ -29,7 +29,7 @@
           ?>
         </div>
 
-        <div>-->
+        <div>
           <!--Navigation-->
         <!--  <a href="<?php echo home_url('/'); ?>"><div class="header-text">
             <p class="head-text"><?php bloginfo('description'); ?></p>
