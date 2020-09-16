@@ -270,11 +270,11 @@ ul.objectives {
   background: #f4f4f4;
   color: #ff590e;
 }
-.menu li a:active {
+.menu li a.active {
   background: #ff590e;
   color: #fff;
 }
-.menu li a:active:after{
+.menu li a.active:after{
     position:absolute;
     left:3em;
     top:0;
