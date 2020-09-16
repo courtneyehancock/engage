@@ -206,13 +206,25 @@ ul.objectives {
     font-style: italic;
 	}
 
-	img.uf-logo {
-		margin-left: 20px;
-    position: absolute;
-    top: 35px;
-    z-index: 2;
-    width: 15%;
-  }
+img.uf-logo {
+	margin-left: 20px;
+  position: absolute;
+  top: 35px;
+  z-index: 2;
+  width: 15%;
+}
+
+.head-text {
+	color: #00529b;
+	position: absolute;
+	right: 50px;
+	top: 90px;
+	z-index: 2;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
 /* -- HEADER -- */
 
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
@@ -256,19 +268,19 @@ ul.objectives {
   height: 100%;
   font-size: 1.4em;
 }
-.menu li a.search:before {
+.menu li a.about:before {
   content: "\f007";
 }
-.menu li a.archive:before {
+.menu li a.agenda:before {
   content: "\f073";
 }
-.menu li a.pencil:before {
+.menu li a.speakers:before {
   content: "\f130";
 }
-.menu li a.contact:before {
+.menu li a.posters:before {
   content: "\f003";
 }
-.menu li a.about:before {
+.menu li a.submit:before {
   content: "\f007";
 }
 .menu li a.home:before {
@@ -648,7 +660,7 @@ footer img {
     position: absolute;
     top: 65px;
     z-index: 2;
-    width: 15%;
+    width: 20%;
   }
 /*  .header-text {
     padding-top: 1.5em;
@@ -658,7 +670,7 @@ footer img {
 		color: #00529b;
     position: absolute;
     right: 50px;
-    top: 60px;
+    top: 90px;
     z-index: 2;
     font-size: 30px;
     font-weight: bold;
@@ -708,9 +720,9 @@ footer img {
 
 
 @media only screen and (max-width: 1257px) {
-  .header-text {
+  /*.header-text {
     display:none;
-  }
+  }*/
 }
 
 
