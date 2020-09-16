@@ -48,7 +48,7 @@
 <div id="navbar" class="main-nav navbar">
   <ul class="nav flex-column menu">
     <li title="home" class="nav-item">
-      <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/#home">Home</a>
+      <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/">Home</a>
     </li>
     <li title="posters" class="nav-item">
       <a class="posters nav-link" href="https://pwd.aa.ufl.edu/cdprs/#posters">Posters</a>
