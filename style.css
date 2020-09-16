@@ -217,7 +217,7 @@ ul.objectives {
 }
 
 .menu p, li {
-	color:#fff;
+	color:#ff590e;
 }
 .menu li a{
     display:block;
@@ -226,8 +226,8 @@ ul.objectives {
     text-indent:-500em;
     line-height:5em;
     text-align:center;
-    color: #ff590e;
-   	background: #f4f4f4;
+    color: #fff;
+   	background: #ff590e;
     position: relative;
   /*  border-bottom: 1px solid #ffffff;*/
     transition: background 0.3s ease-in-out;
@@ -263,12 +263,12 @@ ul.objectives {
   content: "\f015";
 }
 .menu li a:hover{
-  background: #ff590e;
-  color: #fff;
+  background: #f4f4f4;
+  color: #ff590e;
 }
 .menu li.current a {
-  background: #ff590e;
-  color: #fff;
+  background: #f4f4f4;
+  color: #ff590e;
 }
 .menu li a:active {
   background: #ff590e;
@@ -296,7 +296,7 @@ ul.objectives {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-transform:uppercase;
-    background:#ff590e;
+    background:#f4f4f4;
     padding:2em;
     transition: all 0.3s ease-in-out;
     visibility:hidden;
