@@ -48,22 +48,22 @@
 <nav id="navbar" class="main-nav navbar">
   <ul class="nav flex-column menu">
     <li title="home" class="nav-item">
-      <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/#home">Home</a>
+      <a class="home nav-link active" href="#home">Home</a>
     </li>
     <li title="posters" class="nav-item">
-      <a class="posters nav-link" href="https://pwd.aa.ufl.edu/cdprs/#posters">Posters</a>
+      <a class="posters nav-link" href="#posters">Posters</a>
     </li>
     <li title="about" class="nav-item">
-      <a class="about nav-link" href="https://pwd.aa.ufl.edu/cdprs/#about">About</a>
+      <a class="about nav-link" href="#about">About</a>
     </li>
     <li title="agenda" class="nav-item">
-      <a class="agenda nav-link" href="https://pwd.aa.ufl.edu/cdprs/#agenda" class="agenda">Agenda</a>
+      <a class="agenda nav-link" href="#agenda" class="agenda">Agenda</a>
     </li>
     <li title="speakers" class="nav-item">
-      <a class="speakers nav-link" href="https://pwd.aa.ufl.edu/cdprs/#speakers" class="speakers">Speakers</a>
+      <a class="speakers nav-link" href="#speakers" class="speakers">Speakers</a>
     </li>
     <li title="submit" class="nav-item">
-      <a class="nav-link submit" href="https://pwd.aa.ufl.edu/cdprs/#submit">Submit</a>
+      <a class="nav-link submit" href="#submit">Submit</a>
     </li>
   </ul>
 </nav>
