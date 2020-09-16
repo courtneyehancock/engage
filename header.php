@@ -62,11 +62,11 @@
     <li title="speakers" class="nav-item">
       <a class="speakers nav-link" href="#speakers" class="speakers">Speakers</a>
     </li>
-    <li title="register" class="nav-item">
-      <a class="nav-link register" href="#register">Register</a>
-    </li>
     <li title="submit" class="nav-item">
       <a class="nav-link submit" href="#submit">Submit</a>
+    </li>
+    <li title="register" class="nav-item">
+      <a class="nav-link register" href="#register">Register</a>
     </li>
   </ul>
 </nav>
