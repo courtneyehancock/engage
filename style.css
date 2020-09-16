@@ -541,14 +541,14 @@ footer img {
 
 /* -- MEDIA QUERIES -- */
 @media (min-width: 500px){
-	img.header-text {
+	/*img.header-text {
 		max-width: 175px;
 		position: absolute;
 		left: 40px;
 		top: 22px;
 		display:block;
 	}
-}
+}*/
 
 @media (min-width: 600px) {
 	h1.home-head {
@@ -577,12 +577,12 @@ footer img {
 }
 
 @media (min-width:770px){
-  img.uf-logo {
+/*  img.uf-logo {
   	width: 96px;
   /*	margin-top: 2%;*/
     /*margin-left: -25%;*/
   /*	max-height:75px;*/
-	}
+*/}
 	footer {
 		position:fixed;
 		bottom:0;
