@@ -88,6 +88,10 @@
 	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 h1 {
   font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
