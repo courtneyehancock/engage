@@ -205,6 +205,14 @@ ul.objectives {
     font-size: 15px;
     font-style: italic;
 	}
+
+	img.uf-logo {
+		margin-left: 20px;
+    position: absolute;
+    top: 35px;
+    z-index: 2;
+    width: 15%;
+  }
 /* -- HEADER -- */
 
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
