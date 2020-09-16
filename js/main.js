@@ -11,3 +11,10 @@ var links = document.querySelectorAll("#navbar li a");
       target.classList.toggle('active');
     })
 }
+
+$(document).ready(function() {
+           $('li').click(function() {
+               $('li.menu-item.active').removeClass("active");
+               $(this).addClass("active");
+           });
+       }); 
