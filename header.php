@@ -47,7 +47,7 @@
       </div>
     </div>
   </div>-->
-<div class="main-nav">
+<div id="navbar" class="main-nav">
   <ul class="menu">
 <li title="home"><a href="https://pwd.aa.ufl.edu/cdprs/home" class="home">home</a></li>
 <li title="about"><a href="https://pwd.aa.ufl.edu/cdprs/about" class="active search">about</a></li>
