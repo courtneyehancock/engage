@@ -51,7 +51,7 @@
       <a class="home nav-link active" href="#">Home</a>
     </li>
     <li title="posters" class="nav-item">
-      <a class="posters nav-link" href="#posters">Posters</a>
+      <a class="posters nav-link" href="#posters">Poster Submissions</a>
     </li>
     <li title="about" class="nav-item">
       <a class="about nav-link" href="#about">About</a>
