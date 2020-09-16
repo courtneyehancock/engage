@@ -47,12 +47,12 @@
   </div>-->
 <div id="navbar" class="main-nav">
   <ul class="menu">
-<li title="home"><a href="#home" class="home">home</a></li>
-<li title="about"><a href="#about" class="active search">about</a></li>
-<li title="agenda"><a href="#agenda" class="pencil">agenda</a></li>
-<li title="speakers"><a href="#speakers" class="about">speakers</a></li>
-<li title="posters"><a href="#posters" class="archive">posters</a></li>
-<li title="submit"><a href="#submit" class="contact">submit</a></li>
+<li title="home"><a href="https://pwd.aa.ufl.edu/cdprs/#home" class="home">home</a></li>
+<li title="about"><a href="https://pwd.aa.ufl.edu/cdprs/#about" class="active search">about</a></li>
+<li title="agenda"><a href="https://pwd.aa.ufl.edu/cdprs/#agenda" class="pencil">agenda</a></li>
+<li title="speakers"><a href="https://pwd.aa.ufl.edu/cdprs/#speakers" class="about">speakers</a></li>
+<li title="posters"><a href="https://pwd.aa.ufl.edu/cdprs/#posters" class="archive">posters</a></li>
+<li title="submit"><a href="https://pwd.aa.ufl.edu/cdprs/#submit" class="contact">submit</a></li>
 </ul>
 </div>
 
