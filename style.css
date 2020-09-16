@@ -305,6 +305,7 @@ ul.objectives {
     transition: all 0.3s ease-in-out;
     visibility:hidden;
     opacity:0;
+		border-radius: 0 20px 20px 0;
 }
 .menu li:hover:after{
     visibility:visible;
