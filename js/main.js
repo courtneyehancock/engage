@@ -1,8 +1,19 @@
 $(document).ready(function() {
 
-   $('li').click(function() {
-       $('li.menu-item.active').removeClass('active');
-       $(this).classList.add('active');
-   });
+  // Active link switching
+  $(window).scroll(function() {
+    var scrollbarLocation = $(this).scrollTop();
 
-});
+    scrollLink.each(function() {
+
+      var sectionOffset = $(this.hash).offset().top - 20;
+
+      if ( sectionOffset <= scrollbarLocation ) {
+        $(this).parent().addClass('active');
+        $(this).parent().siblings().removeClass('active');
+      }
+    })
+
+  })
+
+})
