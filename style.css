@@ -282,10 +282,10 @@ body {
   content: "\f130";
 }
 .menu li a.posters:before {
-  content: "\f003";
+  content: "\f249";
 }
 .menu li a.submit:before {
-  content: "\f003";
+  content: "\f56f";
 }
 .menu li a.home:before {
   content: "\f015";
