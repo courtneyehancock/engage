@@ -29,7 +29,7 @@
           ?>
         </div>
 
-        <div>
+      <!--  <div>-->
           <!--Navigation-->
         <!--  <a href="<?php echo home_url('/'); ?>"><div class="header-text">
             <p class="head-text"><?php bloginfo('description'); ?></p>
