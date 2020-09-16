@@ -646,9 +646,20 @@ footer img {
     padding-top: 1.5em;
     padding-left: 4em;
   }*/
+	.head-text {
+		color: #00529b;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    z-index: 2;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	}
 }
 
-@media (min-width: 1350px) {
+/*@media (min-width: 1350px) {
 	.head-text {
 		font-size:18px;
 	}
@@ -670,13 +681,13 @@ footer img {
 	.head-text {
 		font-size:22px;
 	}
-}
+}*/
 
-@media (min-width: 1725px) {
+/*@media (min-width: 1725px) {
 	.head-text {
 		font-size:23px;
 	}
-}
+}*/
 
 @media (min-width:2000px) {
 	footer {
