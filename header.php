@@ -48,22 +48,22 @@
 <div id="navbar" class="main-nav nav">
   <ul class="nav flex-column menu">
     <li title="home" class="nav-item">
-      <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/#home">Active</a>
+      <a class="home nav-link active" href="https://pwd.aa.ufl.edu/cdprs/#home">Home</a>
     </li>
     <li title="posters" class="nav-item">
-      <a class="posters nav-link" href="https://pwd.aa.ufl.edu/cdprs/#posters">Link</a>
+      <a class="posters nav-link" href="https://pwd.aa.ufl.edu/cdprs/#posters">Posters</a>
     </li>
     <li title="about" class="nav-item">
-      <a class="about nav-link" href="https://pwd.aa.ufl.edu/cdprs/#about">Link</a>
+      <a class="about nav-link" href="https://pwd.aa.ufl.edu/cdprs/#about">About</a>
     </li>
     <li title="agenda" class="nav-item">
-      <a class="agenda nav-link" href="https://pwd.aa.ufl.edu/cdprs/#agenda" class="agenda">agenda</a>
+      <a class="agenda nav-link" href="https://pwd.aa.ufl.edu/cdprs/#agenda" class="agenda">Agenda</a>
     </li>
     <li title="speakers" class="nav-item">
-      <a class="speakers nav-link" href="https://pwd.aa.ufl.edu/cdprs/#speakers" class="speakers">speakers</a>
+      <a class="speakers nav-link" href="https://pwd.aa.ufl.edu/cdprs/#speakers" class="speakers">Speakers</a>
     </li>
     <li title="submit" class="nav-item">
-      <a class="nav-link submit" href="https://pwd.aa.ufl.edu/cdprs/#submit">Disabled</a>
+      <a class="nav-link submit" href="https://pwd.aa.ufl.edu/cdprs/#submit">Submit</a>
     </li>
   </ul>
 </div>
