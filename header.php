@@ -15,7 +15,6 @@
 
 <header>
   <div class="align-content-center">
-    <div class="main-nav">
       <div id="site-logo">
           <div>
           <!--If/else for Logo and Site Title-->
