@@ -48,7 +48,7 @@
 <nav id="navbar" class="main-nav navbar">
   <ul class="nav flex-column menu">
     <li title="home" class="nav-item">
-      <a class="home nav-link active" href="#home">Home</a>
+      <a class="home nav-link active" href="#">Home</a>
     </li>
     <li title="posters" class="nav-item">
       <a class="posters nav-link" href="#posters">Posters</a>
