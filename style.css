@@ -88,10 +88,6 @@
 	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 h1 {
   font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
@@ -159,20 +155,19 @@ a.aa:hover {
 	color:#00529b;
 }
 
+
 .btn {
-    border: 2px solid #ff590e;
-    font-family: 'Gentona' !important;
-    color: #ff590e;
+    border: 3px solid #ff590e;
+    font-family: 'GentonaLight' !important;
+    color: #ffffff;
     border-radius: 0;
-		background-color: transparent;
+		background-color: #ff590e;
     box-shadow: 1px 5px 8px rgba(0,0,0,.1);
-    /*text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);*/
-		padding:1% 2%;
-		font-weight:bold;
+    text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
 }
 
 .btn:hover {
-  border: 2px solid #ffffff !important;
+  border: 3px solid #ffffff !important;
   background-color: #ffffff;
   color: #ff590e;
 }
@@ -183,17 +178,81 @@ a.aa:hover {
 	font-size: 14px;
 	margin:0;
 }
-/*body{
-  padding-bottom:500px;
-}*/
+
 .shadow {
 	box-shadow: 1px 5px 8px rgba(0,0,0, .1)
 }
+/*body{
+  padding-bottom:500px;
+}*/
+
 .main-content{
 /*  min-height:190vh;*/
   background:#fff;
   z-index:1;
 	position:relative;
+}
+
+ul.objectives {
+    color: #f37022;
+    font-size: 15px;
+    font-style: italic;
+	}
+/* -- HEADER -- */
+header {
+  background-color: #fff;
+}
+
+.row.main-nav {
+    margin-left: 0;
+    margin-right: 0;
+		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.header-text {
+  line-height: .2;
+  /*padding-left:1em;*/
+  padding-top:2.3em;
+}
+.head-text{
+  color:#00529b;
+  /*font-family: 'GentonaLight',sans-serif !important;*/
+	font-family: 'PlayfairDisplay-Regular', serif !important;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: .5px;
+  /*font-style: italic;*/
+	font-size: 16px;
+	position:absolute;
+	left: 130px;
+}
+
+img.uf-logo {
+	width: 74px;
+/*	margin-top: 2%;*/
+  /*margin-left: -25%;*/
+	/*height:60px;*/
+  position: absolute;
+  left:0;
+  padding:15px;
+  background-color:#ff590e;
+	/*background-image: linear-gradient(#00529b, #101c3d);*/
+}
+
+.main-nav {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+  background-color:#fff;
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
+    letter-spacing: 1.5px;
+}
+
+/* -- INTERNAL PAGE HEADERS -- */
+.internal-div {
+	padding: 95px 0 20px;
 }
 
 .page-title {
@@ -202,69 +261,6 @@ a.aa:hover {
 	line-height: .8em;
 	font-size: 2em;
 	color: #fff;
-}
-
-ul.objectives {
-    color: #f37022;
-    font-size: 15px;
-    font-style: italic;
-	}
-
-	/* -- HEADER -- */
-	header {
-	  background-color: #fff;
-	}
-
-	.row.main-nav {
-	    margin-left: 0;
-	    margin-right: 0;
-			box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-	}
-
-	.header-text {
-	  line-height: .2;
-	  /*padding-left:1em;*/
-	  padding-top:2.3em;
-	}
-	.head-text{
-	  color:#00529b;
-	  /*font-family: 'GentonaLight',sans-serif !important;*/
-		font-family: 'PlayfairDisplay-Regular', serif !important;
-		font-style: normal;
-		font-weight: 600;
-		letter-spacing: .5px;
-	  /*font-style: italic;*/
-		font-size: 16px;
-		position:absolute;
-		left: 130px;
-	}
-
-	img.uf-logo {
-		width: 74px;
-	/*	margin-top: 2%;*/
-	  /*margin-left: -25%;*/
-		/*height:60px;*/
-	  position: absolute;
-	  left:0;
-	  padding:15px;
-	  background-color:#ff590e;
-		/*background-image: linear-gradient(#00529b, #101c3d);*/
-	}
-
-	.main-nav {
-		position: fixed;
-		z-index: 2;
-		width: 100%;
-	  background-color:#fff;
-	}
-
-	#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
-	    letter-spacing: 1.5px;
-	}
-
-/* -- INTERNAL PAGE HEADERS -- */
-.internal-div {
-	padding: 95px 0 20px;
 }
 
 /* -- HOME PAGE -- */
