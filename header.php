@@ -13,62 +13,38 @@
 
 <body data-spy="scroll" data-target="#navbar" <?php body_class();?>>
 
-<header>
-  <div class="align-content-center">
-      <div id="site-logo">
+  <header>
+    <div class="align-content-center">
+      <div class="row main-nav">
+        <div class="col-md-5" id="site-logo">
+            <div>
+            <!--If/else for Logo and Site Title-->
+            <?php if(get_header_image() == '') { ?>
+              <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+              <?php
+            }else{?>
+              <a href="<?php echo home_url('/'); ?>"><img class="align-middle uf-logo" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
+              <?php
+            }
+            ?>
+          </div>
+
           <div>
-          <!--If/else for Logo and Site Title-->
-          <?php if(get_header_image() == '') { ?>
-            <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-            <?php
-          }else{?>
-            <a href="<?php echo home_url('/'); ?>"><img class="align-middle uf-logo" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
-            <?php
-          }
+            <!--Navigation-->
+            <a href="<?php echo home_url('/'); ?>"><div class="header-text">
+              <p class="head-text"><?php bloginfo('description'); ?></p>
+            </div></a>
+          </div>
+        </div>
+
+        <div class="col-md-7" id="site-nav">
+          <!--Navigation-->
+          <?php wp_nav_menu(array(
+            'theme_location' => 'header-menu',
+            'container-class' => 'menu-header'
+            ));
           ?>
         </div>
-
-       <div>
-        <a href="<?php echo home_url('/'); ?>"><div class="header-text">
-            <p class="head-text"><?php bloginfo('description'); ?></p>
-          </div></a>
-        </div>
-      </div>
-
-      <!--<div class="col-md-7" id="site-nav">-->
-        <!--Navigation-->
-      <!--  <?php wp_nav_menu(array(
-          'theme_location' => 'header-menu',
-          'container-class' => 'menu-header'
-          ));
-        ?>
       </div>
     </div>
-  </div>-->
-<nav id="navbar" class="main-nav navbar">
-  <ul class="nav flex-column menu">
-    <li title="home" class="nav-item">
-      <a class="home nav-link active" href="#">Home</a>
-    </li>
-    <li title="posters" class="nav-item">
-      <a class="posters nav-link" href="#posters">Poster Submissions</a>
-    </li>
-    <li title="about" class="nav-item">
-      <a class="about nav-link" href="#about">About</a>
-    </li>
-    <li title="agenda" class="nav-item">
-      <a class="agenda nav-link" href="#agenda" class="agenda">Agenda</a>
-    </li>
-    <li title="speakers" class="nav-item">
-      <a class="speakers nav-link" href="#speakers" class="speakers">Speakers</a>
-    </li>
-    <li title="submit" class="nav-item">
-      <a class="nav-link submit" href="#submit">Submit</a>
-    </li>
-    <li title="register" class="nav-item">
-      <a class="nav-link register" href="#register">Register</a>
-    </li>
-  </ul>
-</nav>
-
-</header>
+  </header>
