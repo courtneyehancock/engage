@@ -26,7 +26,7 @@
           <div class="col-lg-3 posts">
             <?php the_post_thumbnail('medium'); ?>
             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <?php the_excerpt(); ?>
+            <!--<?php the_excerpt(); ?>-->
             <?php
               $archive_year = get_the_time('Y');
               $archive_month = get_the_time('m');
