@@ -16,7 +16,7 @@
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid pb-5">
     <div class="post-container row justify-content-center">
     <?php
       if(have_posts()){
