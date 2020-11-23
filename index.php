@@ -23,7 +23,7 @@
         while(have_posts()){
           the_post();?>
 
-          <div class="col-lg-3 posts">
+          <div class="col-lg-2 posts">
             <?php the_post_thumbnail('medium'); ?>
             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <!--<?php the_excerpt(); ?>-->
@@ -34,7 +34,7 @@
             ?>
             <div class="post-info">
               <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
-              <a class="btn mt-3" href="<?php the_permalink(); ?>">LEARN MORE</a>
+              <a class="btn mt-3" href="<?php the_permalink(); ?>">READ MORE</a>
             <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
             </div>
           </div>

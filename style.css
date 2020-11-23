@@ -222,7 +222,7 @@ header {
 	font-weight: 600;
 	letter-spacing: .5px;
   /*font-style: italic;*/
-	font-size: 16px;
+	font-size: 15px;
 	position:absolute;
 	left: 130px;
 }
@@ -324,7 +324,7 @@ img.img-fluid.headshots {
 	align-items: flex-start;
 }
 
-.col-lg-3.posts {
+.col-lg-2.posts {
 	padding:10px;
 	box-shadow: 1px 5px 8px rgba(0,0,0,.1);
 	margin: .5%;
@@ -546,25 +546,25 @@ footer img {
 
 @media (min-width: 1350px) {
 	.head-text {
-		font-size:18px;
+		font-size:16px;
 	}
 }
 
 @media (min-width: 1420px) {
 	.head-text {
-		font-size:19px;
+		font-size:17px;
 	}
 }
 
 @media (min-width: 1500px) {
 	.head-text {
-		font-size:20px;
+		font-size:19px;
 	}
 }
 
 @media (min-width: 1600px) {
 	.head-text {
-		font-size:22px;
+		font-size:21px;
 	}
 }
 
