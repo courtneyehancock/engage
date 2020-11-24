@@ -15,7 +15,7 @@
 
 <header>
   <div class="align-content-center">
-    <nav id="mainnav" class="row main-nav">
+    <div class="row main-nav">
       <div class="col-md-3" id="site-logo">
           <div>
           <!--If/else for Logo and Site Title-->
@@ -45,6 +45,6 @@
           ));
         ?>
       </div>
-    </nav>
+    </div>
   </div>
 </header>
