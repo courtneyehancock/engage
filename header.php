@@ -16,7 +16,7 @@
 <header>
   <div class="align-content-center">
     <div class="row main-nav">
-      <div class="col-md-5" id="site-logo">
+      <div class="col-md-3" id="site-logo">
           <div>
           <!--If/else for Logo and Site Title-->
           <?php if(get_header_image() == '') { ?>
@@ -29,15 +29,15 @@
           ?>
         </div>
 
-        <div>
-          <!--Navigation-->
-          <a href="<?php echo home_url('/'); ?>"><div class="header-text">
+        <!--<div>
+        --><!--Navigation-->
+        <!--  <a href="<?php echo home_url('/'); ?>"><div class="header-text">
             <p class="head-text"><?php bloginfo('description'); ?></p>
           </div></a>
-        </div>
+        </div>-->
       </div>
 
-      <div class="col-md-7" id="site-nav">
+      <div class="col-md-9" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
