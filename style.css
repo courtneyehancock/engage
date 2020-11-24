@@ -245,7 +245,7 @@ nav button {
 
 nav.scroll {
   background-color: #fff;
-  color: #00529b;
+  color: #00529b !important;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   transition: ease .5s;
 }
