@@ -230,7 +230,7 @@ header {
 }
 */
 img.uf-logo {
-	width: 300px;
+	width: 200px;
 /*	margin-top: 2%;*/
   /*margin-left: -25%;*/
 	/*height:60px;*/
@@ -479,11 +479,11 @@ footer img {
 
 @media (min-width:770px){
   img.uf-logo {
-  	width: 96px;
+  	width: 300px;
   /*	margin-top: 2%;*/
     /*margin-left: -25%;*/
   /*	max-height:75px;*/
-	}
+		}
 	footer {
 		position:fixed;
 		bottom:0;
@@ -530,8 +530,8 @@ footer img {
 	}
 }
 
-@media (min-width: 1270px) {
-img.uf-logo {
+/*@media (min-width: 1270px) {
+/*img.uf-logo {
   	/*max-width: 150px;*/
   /*	margin-top: 2%;*/
     /*margin-left: -4.5%;*/
@@ -540,7 +540,7 @@ img.uf-logo {
   /*  top:0;
     margin-left:0;
   }*/
-  .header-text {
+  /*.header-text {
     padding-top: 1.5em;
     padding-left: 4em;
   }
@@ -586,11 +586,11 @@ img.uf-logo {
 }
 
 
-@media only screen and (max-width: 1257px) {
+/*@media only screen and (max-width: 1257px) {
   .header-text {
     display:none;
   }
-}
+}*/
 
 
 @media only screen and (max-width: 999px) {
