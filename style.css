@@ -207,37 +207,37 @@ header {
     margin-left: 0;
     margin-right: 0;
 		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-		background-color: rgba(255,255,255,.5);
+		background-color: #fff;
 }
 
-
+/*
 .header-text {
   line-height: .2;
   /*padding-left:1em;*/
-  padding-top:2.3em;
-}
+  /*padding-top:2.3em;
+}/*
 .head-text{
   color:#00529b;
   /*font-family: 'GentonaLight',sans-serif !important;*/
-	font-family: 'PlayfairDisplay-Regular', serif !important;
+/*	font-family: 'PlayfairDisplay-Regular', serif !important;
 	font-style: normal;
 	font-weight: 600;
 	letter-spacing: .5px;
   /*font-style: italic;*/
-	font-size: 15px;
+/*	font-size: 15px;
 	position:absolute;
 	left: 130px;
 }
-
+*/
 img.uf-logo {
-	width: 74px;
+	width: 300px;
 /*	margin-top: 2%;*/
   /*margin-left: -25%;*/
 	/*height:60px;*/
   position: absolute;
   left:0;
   padding:15px;
-  background-color:#ff590e;
+  /*background-color:#ff590e;*/
 	/*background-image: linear-gradient(#00529b, #101c3d);*/
 }
 
