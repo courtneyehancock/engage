@@ -23,7 +23,7 @@
   <div class="container-fluid final-footer">
     <div class="row align-items-center">
       <div class="col-lg-8">
-        <p> © 2020 University of Florida Professional and Workforce Development | <a href="mailto:cehancock@mail.ufl.edu">Website Feedback</a> | <a href="https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/">UF Privacy Policy</a></p>
+        <p> © <?php echo date("Y"); ?> University of Florida Professional and Workforce Development | <a href="mailto:cehancock@mail.ufl.edu">Website Feedback</a> | <a href="https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/">UF Privacy Policy</a></p>
       </div>
       <div class="col-lg-2">
         <a href="https://pwd.aa.ufl.edu/" target="_blank"><img alt="PWD Logo" src="https://pwd.aa.ufl.edu/wp-content/uploads/2020/07/pwd-white.png"></a>
