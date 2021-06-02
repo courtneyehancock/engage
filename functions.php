@@ -31,13 +31,68 @@
 
   add_action('init', 'register_member_cpt');
   function register_member_cpt() {
-      register_post_type('member', [
+      register_post_type('members', [
         'label' => 'Members',
         'public' => true,
         'capability_type' => 'post'
       ]);
   }
 
+  add_action('wp_ajax_nopriv_get_member_from_api', 'get_members_from_api');
+  add_action('wp_ajax_get_member_from_api', 'get_members_from_api');
+
+  function get_members_from_api(){
+    $current_page = ( ! empty($_POST['current_page']) ) ? $_POST['current_page'] : 1;
+    $members = [];
+
+    $results = wp_remote_retrieve_body( wp_remote_get('http://api.qa.flwatertracker.com/api/Outgoings/FACILITIES_FOR_FLAWARN?api-version=1.0' . $current_page. '&per_page=50'));
+
+    $results = json_decode($results);
+
+    if( ! is_array( $results ) || empty( $results ) ){
+      return false;
+    }
+
+    $members[] = $results;
+
+    foreach( $members[0] as $member){
+
+      $member_slug = sanitize_title($member->facility_name . '-' . $member->facility_id);
+
+      $inserted_member = wp_insert_post ([
+        'post-name' => $member_slug,
+        'post-title' => $member_slug,
+        'post-type' => 'member',
+        'post-status' => 'publish'
+      ]);
+
+      if( is_wp_error( $inserted_member) ) {
+        continue;
+      }
+
+      $fillable = [
+        'field_60b7a2f83cbd1' => 'facility_id'
+        'field_60b7a3293cbd2' => 'facility_name'
+        'field_60b7a32f3cbd3' => 'county'
+        'field_60b7a34a3cbd4' => 'mutual_aid_agreement'
+        'field_60b7a3553cbd5' => 'flawarn_member'
+      ];
+
+      foreach( $fillable as $key => $facility_name ) {
+        update_field( $key, $member->$facility_name, $inserted_member);
+      }
+
+    }
+
+    $curent_page = $current_page + 1;
+    wp_remote_post( admin_url('admin-ajax.php?action=get_members_from_api'), [
+      'blocking' => false,
+      'sslverify' => false,
+      'body' => [
+        'current_page' => $current_page
+      ]
+    ]);
+  }
 
   /*-------------------------------------
 
