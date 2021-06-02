@@ -23,13 +23,38 @@
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
-  /*-------------------------------------
 
-  API Functions
+    /*-------------------------------------
 
-  -----------------------------------------*/
+    CUSTOM POST TYPES
 
-  
+    -----------------------------------------*/
+    // REGISTER CUSTOM POST TYPES
+  // You can register more, just duplicate the register_post_type code inside of the function and change the values. You are set!
+  if ( ! function_exists( 'create_post_type' ) ) :
+
+  function create_post_type() {
+
+  	// You'll want to replace the values below with your own.
+  	register_post_type( 'members', // change the name
+  		array(
+  			'labels' => array(
+  				'name' => __( 'Members' ), // change the name
+  				'singular_name' => __( 'members' ), // change the name
+  			),
+  			'public' => true,
+  			'supports' => array ( 'title', 'custom-fields' ), // do you need all of these options?
+  			'taxonomies' => array( 'category', 'post_tag' ), // do you need categories and tags?
+  			'hierarchical' => true,
+  			'menu_icon' => get_bloginfo( 'template_directory' ) . "/images/icon.png",
+  			'rewrite' => array ( 'slug' => __( 'members' ) ) // change the name
+  		)
+  	);
+
+  }
+  add_action( 'init', 'create_post_type' );
+
+  endif;
 
   /*-------------------------------------
 
