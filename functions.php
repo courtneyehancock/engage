@@ -23,8 +23,28 @@
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
+  /*-------------------------------------
 
-  //Widget Areas
+  API Functions
+
+  -----------------------------------------*/
+
+  add_action('init', 'register_member_cpt');
+  function register_member_cpt() {
+      register_post_type('member', [
+        'label' => 'Members',
+        'public' => true,
+        'capability_type' => 'post'
+      ]);
+  }
+
+
+  /*-------------------------------------
+
+  WIDGET AREAS
+
+  -----------------------------------------*/
+
   function blank_widgets_init() {
 
     //Home: Banner Widget
