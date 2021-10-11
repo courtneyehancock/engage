@@ -158,7 +158,7 @@
   add_action('init', 'custom_menus');
 
   //Logo in the header
-/*  add_theme_support( 'custom-header', array(
+  add_theme_support( 'custom-header', array(
     'flex-width'      => true,
     'width'           => 260,
     'flex-height'     => true,
@@ -166,7 +166,7 @@
     'header-selector' => '.site-title a',
     'header-text'     => false
   ) );
-*/
+
   //Adds featured imgs to posts
     add_theme_support('post-thumbnails');
 
