@@ -27,7 +27,8 @@
         'menu' => 'top-menu',
         'menu_class' => 'navbar-nav font-weight-extra-bold ml-auto',
         'container' => '',
-        'li_class' => 'nav-link',
+        'li_class' => 'nav-item',
+        'a_class' => 'nav-link',
         'active_class' => 'active'
       ));?>
     </div>
