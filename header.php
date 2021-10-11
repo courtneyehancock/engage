@@ -15,7 +15,7 @@
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="#">
       <img src="https://pwd.aa.ufl.edu/treeo/wp-content/uploads/sites/20/2021/03/treeo-white.png" alt="..." height="36">
     </a>
