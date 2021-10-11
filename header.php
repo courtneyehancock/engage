@@ -14,9 +14,9 @@
 <body <?php body_class();?>>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar-below">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand font-weight-bold" href="#">
       <img src="https://pwd.aa.ufl.edu/treeo/wp-content/uploads/sites/20/2021/03/treeo-white.png" alt="..." height="36">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

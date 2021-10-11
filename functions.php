@@ -10,7 +10,7 @@
     'top-menu' => ('Top Menu', 'theme')
   ));
 
-  function add_class_li($classes,$item,$args){
+  /*function add_class_li($classes,$item,$args){
     if(isset($args->li_class)) {
       $classes[] = $args->li_class;
     }
@@ -29,7 +29,7 @@
     return $attr;
   }
 
-  add_filter( 'nav_menu_link_attributes', 'add_anchor_class', 10, 3 );
+  add_filter( 'nav_menu_link_attributes', 'add_anchor_class', 10, 3 );*/
   /*-------------------------------------
 
   Adds style sheet and JavaScript files
