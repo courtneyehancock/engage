@@ -1,20 +1,7 @@
 <?php
-/* Do theme setup on the 'after_setup_theme' hook. */
-add_action( 'after_setup_theme', 'themename_setup' );
+
   require_once('bs4navwalker.php');
-/**
- * Theme setup function.  This function adds support for theme features and defines the default theme
- * actions and filters.
- *
- * @since 0.1.0
- */
-function themename_setup() {
 
-	/* Get action/filter hook prefix. */
-	$prefix = hybrid_get_prefix();
-
-	/* Calls to add_action(), add_filter(), and add_theme_support() will go here. */
-}
   /*-------------------------------------
 
   Adds style sheet and JavaScript files
