@@ -152,7 +152,7 @@
 
   add_action('widgets_init', 'blank_widgets_init');
 
-  //Custom Menus
+/*  //Custom Menus
   function custom_menus(){
     register_nav_menus(array(
       'header-menu' => __('Header Menu'),
