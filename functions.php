@@ -6,7 +6,7 @@
   -----------------------------------------*/
   add_theme_support('menus');
 
-  register_nav_menus(array(
+  register_nav_menu(array(
     'top-menus' => ('Top Menu', 'theme')
   ));
 
@@ -20,7 +20,7 @@
     return $classes;
   }
 
-  add_filter( 'nav_menu_css_class', 'add_class_li', 10, 3);
+  add_filter( 'nav_menu_css_class', 'add_class_li', 10, 3 );
 
   function add_anchor_class($attr,$item,$args){
     if(isset($args->a_class)){
@@ -148,17 +148,17 @@
 
   add_action('widgets_init', 'blank_widgets_init');
 
-/*  //Custom Menus
+  //Custom Menus
   function custom_menus(){
     register_nav_menus(array(
-      'header-menu' => __('Header Menu'),
-      'footer-menu' => __('Footer Menu'),
+    //  'header-menu' => __('Header Menu'),
+      'footer-menu' => __('Footer Menu')
     ));
   }
   add_action('init', 'custom_menus');
-/*
+
   //Logo in the header
-  add_theme_support( 'custom-header', array(
+/*  add_theme_support( 'custom-header', array(
     'flex-width'      => true,
     'width'           => 260,
     'flex-height'     => true,
