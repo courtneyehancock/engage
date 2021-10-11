@@ -12,8 +12,33 @@
 </head>
 
 <body <?php body_class();?>>
-
-<header>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="https://pwd.aa.ufl.edu/treeo/wp-content/uploads/sites/20/2021/03/treeo-white.png" alt="..." height="36">
+        </a>
+          <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fa fa-bars"></i>
+          </button>
+          <?php
+          wp_nav_menu([
+              'menu'            => 'primary',
+              'theme_location'  => 'menu-1',
+              'container'       => 'div',
+              'container_id'    => 'navbarResponsive',
+              'container_class' => 'collapse navbar-collapse',
+              'menu_id'         => false,
+              'menu_class'      => 'navbar-nav ml-auto',
+              'depth'           => 0,
+              'fallback_cb'     => 'bs4navwalker::fallback',
+              'walker'          => new bs4navwalker()
+          ]);
+          ?>
+      </div>
+  </nav>
+<!--<header>
   <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar-below">
   <div class="container">
     <a class="navbar-brand font-weight-bold" href="#">
@@ -34,4 +59,4 @@
     </div>
   </div>
 </nav>
-</header>
+</header>-->

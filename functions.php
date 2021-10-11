@@ -124,7 +124,7 @@
 
   -----------------------------------------*/
   add_theme_support('menus');
-  
+
   function custom_menus(){
     register_nav_menus(array(
       'top-menu' => __('Top Menu', 'theme'),
@@ -132,7 +132,7 @@
     ));
   }
 
-  add_action('init', 'custom_menus');
+  /*add_action('init', 'custom_menus');
 
   function add_class_li($classes,$item,$args){
     if(isset($args->li_class)) {
@@ -153,7 +153,7 @@
     return $attr;
   }
 
-  add_filter( 'nav_menu_link_attributes', 'add_anchor_class', 10, 3 );
+  add_filter( 'nav_menu_link_attributes', 'add_anchor_class', 10, 3 );*/
 
   //Logo in the header
   add_theme_support( 'custom-header', array(
@@ -168,5 +168,11 @@
   //Adds featured imgs to posts
     add_theme_support('post-thumbnails');
 
-
+  //Menu php
+    require_once('bs4navwalker.php');
+    function add_menuclass($ulclass) {
+        return preg_replace('/<a/', '<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"', $ulclass, -1);
+    }
+    add_filter('wp_nav_menu','add_menuclass');
+    
   ?>
