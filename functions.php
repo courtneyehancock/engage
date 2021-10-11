@@ -5,6 +5,37 @@
 
   /*-------------------------------------
 
+  Add MENUS
+
+  -----------------------------------------*/
+  add_theme_support('menus');
+
+  register_nav_menus(array(
+    'top-menus' => ('Top Menu', 'theme')
+  ));
+
+  function add_class_li($classes,$item,$args){
+    if(isset($args->li_class)) {
+      $classes[] = $args->li_class;
+    }
+    if(isset($args->active_class) && in_array('current-menu-items',$classes)){
+      $classes[] = $args->active_class;
+    }
+    return $classes;
+  }
+
+  add_filter( 'nav_menu_css_class', 'add_class_li', 10, 3);
+
+  function add_anchor_class($attr,$item,$args){
+    if(isset($args->a_class)){
+      $attr['class'] = $args->a_class;
+    }
+    return $attr;
+  }
+
+  add_filter( 'nav_menu_link_attributes', 'add_anchor_class' 10, 3 );
+  /*-------------------------------------
+
   Adds style sheet and JavaScript files
 
   -----------------------------------------*/
@@ -24,11 +55,11 @@
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
 
-    /*-------------------------------------
+  /*-------------------------------------
 
-    CUSTOM POST TYPES
+  CUSTOM POST TYPES
 
-    -----------------------------------------*/
+  -----------------------------------------*/
     // REGISTER CUSTOM POST TYPES
   // You can register more, just duplicate the register_post_type code inside of the function and change the values. You are set!
   if ( ! function_exists( 'create_post_type' ) ) :
@@ -61,7 +92,6 @@
   WIDGET AREAS
 
   -----------------------------------------*/
-
   function blank_widgets_init() {
 
     //Home: Banner Widget
@@ -130,7 +160,7 @@
     ));
   }
   add_action('init', 'custom_menus');
-
+/*
   //Logo in the header
   add_theme_support( 'custom-header', array(
     'flex-width'      => true,
@@ -140,7 +170,7 @@
     'header-selector' => '.site-title a',
     'header-text'     => false
   ) );
-
+*/
   //Adds featured imgs to posts
     add_theme_support('post-thumbnails');
 

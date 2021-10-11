@@ -47,4 +47,26 @@
       </div>
     </div>
   </div>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://pwd.aa.ufl.edu/treeo/wp-content/uploads/sites/20/2021/03/treeo-white.png" alt="..." height="36">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <?php wp_nav_menu(array(
+        'menu' => 'top-menu',
+        'menu_class' => 'navbar-nav font-weight-extra-bold ml-auto',
+        'container' => '',
+        'li_class' => 'nav-link',
+        'active_class' => 'active'
+      ));?>
+    </div>
+  </div>
+</nav>
 </header>
