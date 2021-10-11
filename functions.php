@@ -6,15 +6,15 @@
   -----------------------------------------*/
   add_theme_support('menus');
 
-  register_nav_menu(array(
-    'top-menus' => ('Top Menu', 'theme')
+  register_nav_menus(array(
+    'top-menu' => ('Top Menu', 'theme')
   ));
 
   function add_class_li($classes,$item,$args){
     if(isset($args->li_class)) {
       $classes[] = $args->li_class;
     }
-    if(isset($args->active_class) && in_array('current-menu-items',$classes)){
+    if(isset($args->active_class) && in_array('current-menu-item',$classes)){
       $classes[] = $args->active_class;
     }
     return $classes;
@@ -29,7 +29,7 @@
     return $attr;
   }
 
-  add_filter( 'nav_menu_link_attributes', 'add_anchor_class' 10, 3 );
+  add_filter( 'nav_menu_link_attributes', 'add_anchor_class', 10, 3 );
   /*-------------------------------------
 
   Adds style sheet and JavaScript files
